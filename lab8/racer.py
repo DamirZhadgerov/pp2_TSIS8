@@ -33,9 +33,9 @@ class Enemy(pygame.sprite.Sprite):
 enemy = pygame.sprite.Group()  
 
 
+
 def createEnemy(group):  
     return Enemy(randint(40, W - 40), 3, 'enemy.png', group)  
-
 
 createEnemy(enemy)  
 
